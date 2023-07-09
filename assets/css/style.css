@@ -1223,3 +1223,55 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+
+body {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2rem;
+	margin: 0;
+	padding: 1rem;
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+}
+
+.mylistttt ol {
+	padding: 0;
+	margin: 0;
+	max-width: 700px;
+	position: relative;
+}
+
+.mylistttt ol::before {
+	content: '';
+	width: 0.5rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 8%;
+	background: peachpuff;
+	z-index: -1;
+}
+
+.mylistttt li {
+	padding: 0.5rem 1.5rem 1rem;
+	border-radius: 1.5rem;
+	background: peachpuff;
+}
+
+.mylistttt li + li {
+	margin-top: 1rem;
+}
+
+.mylistttt ::marker {
+	font-weight: 600;
+	color: tomato;
+	font-size: 1.8rem;
+}
+.mylistttt{
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  font-family: "Nunito";
+  font-weight: 600;
+  text-transform: none;
+}
